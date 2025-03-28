@@ -27,11 +27,12 @@ namespace soal_encapsulation_2
                 {
                     if (value >= 1000 && value <= 1100)
                     {
+                        Console.WriteLine("Tambah Nim Berhasil Bang");
                         _nim = value;
                     }
                     else
                     {
-                        Console.WriteLine("error bang");
+                        Console.WriteLine("Nim Ga sesuai Prodi Bang");
                     }
                
                 }
@@ -39,11 +40,12 @@ namespace soal_encapsulation_2
                 {
                     if (value >= 2000 && value <= 2100)
                     {
+                        Console.WriteLine("Tambah Nim Berhasil Bang");
                         _nim = value;
                     }
                     else
                     {
-                        Console.WriteLine("error bang");
+                        Console.WriteLine("Nim Ga sesuai Prodi Bang");
                     }
                
                 }
@@ -51,15 +53,24 @@ namespace soal_encapsulation_2
                 {
                     if (value >= 3000 && value <= 3100)
                     {
+                        Console.WriteLine("Tambah Nim Berhasil Bang");
                         _nim = value;
                     }
                     else
                     {
-                        Console.WriteLine("error bang");
+                        Console.WriteLine("Nim Ga sesuai Prodi Bang");
                     }
                   
                 }
             }
+        }
+        public void tampilkanBiodata()
+        {
+            Console.WriteLine($"NAMA : {nama}");
+            Console.WriteLine($"NIM : {_nim}");
+            Console.WriteLine($"Prodi : {prodi}");
+
+
         }
     }
 }

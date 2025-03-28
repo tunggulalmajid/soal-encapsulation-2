@@ -6,5 +6,6 @@ internal class Program
     {
         Biodata tunggul = new Biodata("tunggul", "teknologi informasi");
         tunggul.Nim = 2058;
+        tunggul.tampilkanBiodata();
     }
 }
